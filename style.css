@@ -1,0 +1,39 @@
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#select-menu{
+    margin-top: 16px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#card-wrapper{
+    margin-top: 32px;
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#info{
+    margin-left: 16px;
+    width: 300px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+}
+
+#country, #league, #club {
+    width: 300px;
+}
+
+#club-image {
+    width: 300px;
+    height: 400px;
+}
